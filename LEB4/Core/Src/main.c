@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+//tanapat
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -132,9 +132,6 @@ int main(void)
 		  		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,0);
 		  		__HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_2,PIDoutput*-1);
 	  		}
-
-
-
 	    }
 
   }
